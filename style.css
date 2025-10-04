@@ -84,6 +84,8 @@ nav {
     color: var(--color-bg);
     background-color: var(--color-accent);
     transform: scale(1.05);
+    border-radius: 15px;
+    padding: 3px;
 }
 
 /* SECTION 1: Hero */
