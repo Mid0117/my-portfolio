@@ -18,15 +18,16 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url('images/red_wavy_halftone_background.jpg'); /* Your background */
+    background-image: url('images/red_wavy_halftone_background.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: scroll; /* safe for mobile */
+    background-attachment: scroll; 
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
     color: var(--color-text);
+    min-height: 100vh;
 }
 
 /* Dark overlay for readability */
