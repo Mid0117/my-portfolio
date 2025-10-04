@@ -28,6 +28,7 @@ body{
     position: relative;
     color: var(--color-text);
     min-height: 100vh;
+    background-color: var(--color-bg);
 }
 
 /* Dark overlay for readability */
