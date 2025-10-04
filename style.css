@@ -170,11 +170,6 @@ nav {
     text-align: center;
 }
 
-.skills h2{
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
 .skills .text{
     font-size: 15px;
     margin-bottom: 20px;
@@ -336,6 +331,17 @@ nav {
 }
 
 /* RESPONSIVE */
+
+
+@media (max-width: 1274px) {
+    body {
+        background-size: cover;
+        background-repeat: repeat;  
+        background-image: url(images/Mobile.bg2.jpg);
+    }
+    }
+
+
 @media (max-width:850px) {
     .hero-section{
         flex-direction: column-reverse;
@@ -396,12 +402,5 @@ nav {
         padding: 0 20px;
     }
 
-@media (max-width: 768px) {
-    body {
-        background-size: cover;  
-        background-position: center; 
-        background-image: url(images/Mobile.bg2.jpg);
-    }
-    }
 
 }
