@@ -85,7 +85,13 @@ nav {
     background-color: var(--color-accent);
     transform: scale(1.05);
     border-radius: 15px;
-    padding: 3px;
+    margin: 5px;
+}
+
+.right a:last-child:hover,
+.right a:last-child:focus,
+.right a:last-child:active {
+
 }
 
 /* SECTION 1: Hero */
